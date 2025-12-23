@@ -1,0 +1,15 @@
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\bin\Debug\net8.0\OnionPronia.Application.deps.json
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\bin\Debug\net8.0\OnionPronia.Application.dll
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\bin\Debug\net8.0\OnionPronia.Application.pdb
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\bin\Debug\net8.0\OnionPronia.Domain.dll
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\bin\Debug\net8.0\OnionPronia.Domain.pdb
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\obj\Debug\net8.0\OnionPronia.Application.csproj.AssemblyReference.cache
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\obj\Debug\net8.0\OnionPronia.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\obj\Debug\net8.0\OnionPronia.Application.AssemblyInfoInputs.cache
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\obj\Debug\net8.0\OnionPronia.Application.AssemblyInfo.cs
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\obj\Debug\net8.0\OnionPronia.Application.csproj.CoreCompileInputs.cache
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\obj\Debug\net8.0\OnionPro.EF94C029.Up2Date
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\obj\Debug\net8.0\OnionPronia.Application.dll
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\obj\Debug\net8.0\refint\OnionPronia.Application.dll
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\obj\Debug\net8.0\OnionPronia.Application.pdb
+C:\Users\sabir\Desktop\OnionPronia\src\Core\OnionPronia.Application\obj\Debug\net8.0\ref\OnionPronia.Application.dll

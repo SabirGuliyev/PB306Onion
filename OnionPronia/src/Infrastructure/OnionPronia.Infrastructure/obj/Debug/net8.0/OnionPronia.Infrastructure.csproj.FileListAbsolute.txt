@@ -1,0 +1,11 @@
+C:\Users\sabir\Desktop\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\bin\Debug\net8.0\OnionPronia.Infrastructure.deps.json
+C:\Users\sabir\Desktop\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\bin\Debug\net8.0\OnionPronia.Infrastructure.dll
+C:\Users\sabir\Desktop\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\bin\Debug\net8.0\OnionPronia.Infrastructure.pdb
+C:\Users\sabir\Desktop\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\OnionPronia.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabir\Desktop\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\OnionPronia.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\sabir\Desktop\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\OnionPronia.Infrastructure.AssemblyInfo.cs
+C:\Users\sabir\Desktop\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\OnionPronia.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\sabir\Desktop\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\OnionPronia.Infrastructure.dll
+C:\Users\sabir\Desktop\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\refint\OnionPronia.Infrastructure.dll
+C:\Users\sabir\Desktop\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\OnionPronia.Infrastructure.pdb
+C:\Users\sabir\Desktop\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\ref\OnionPronia.Infrastructure.dll
