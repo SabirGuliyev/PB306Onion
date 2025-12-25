@@ -20,6 +20,7 @@ namespace OnionPronia.Persistence.Configurations
                 .Property(p => p.Name)
                 .IsRequired()
                 .HasColumnType("varchar(150)");
+                //.HasColumnOrder(0);
 
             builder
                 .HasIndex(p => p.Name)

@@ -2,9 +2,9 @@
 {
     //Data Transer Object
     public record GetCategoryDto (
-            int Id,
+            long Id,
             string Name,
-            IEnumerable<GetProductInCategoryDto> ProductDtos
+            ICollection<GetProductInCategoryDto> ProductDtos
         );
    
 }

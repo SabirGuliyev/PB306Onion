@@ -30,6 +30,8 @@ namespace OnionPronia.Application.Interfaces.Repositories
 
 
         void Delete(T entity);
+
+        Task<bool> AnyAsync(Expression<Func<T, bool>> func);
         Task SaveChangesAsync();
 
 

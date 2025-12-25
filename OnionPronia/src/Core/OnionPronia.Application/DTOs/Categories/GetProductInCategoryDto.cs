@@ -1,7 +1,7 @@
 ﻿namespace OnionPronia.Application.DTOs
 {
     public record GetProductInCategoryDto(
-        int Id,
+        long Id,
         string Name,
         decimal Price
         );
