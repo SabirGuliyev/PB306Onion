@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
-using OnionPronia.Application.DTOs;
+using OnionPronia.Application.DTOs.Products;
+using OnionPronia.Application.DTOs.Tags;
 using OnionPronia.Domain.Entities;
 
 
@@ -10,7 +11,20 @@ namespace OnionPronia.Application.MappingProfiles
         public ProductProfile()
         {
             CreateMap<Product, GetProductInCategoryDto>();
-            //CreateMap<>
+
+            CreateMap<Product, GetProductItemDto>()
+                .ForCtorParam(nameof(GetProductItemDto.CategoryName),
+                opt => opt.MapFrom(p => p.Category.Name));
+
+            CreateMap<Product, GetProductDto>()
+                .ForCtorParam(nameof(GetProductDto.CategoryDto),
+                opt => opt.MapFrom(p => p.Category))
+
+                .ForCtorParam(nameof(GetProductDto.TagDtos),
+                opt => opt.MapFrom(p => p.ProductTags
+                    .Select(pt => new GetTagInProductDto(pt.Tag.Id, pt.Tag.Name))
+                    .ToList()));
+          
         }
     }
 }

@@ -21,7 +21,7 @@ namespace OnionPronia.Application.Interfaces.Repositories
 
 
             );
-        Task<T> GetByIdAsync(int id, params string[] includes);
+        Task<T> GetByIdAsync(long id, params string[] includes);
 
 
         void Add(T entity);
