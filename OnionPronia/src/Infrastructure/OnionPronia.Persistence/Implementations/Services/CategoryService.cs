@@ -67,7 +67,6 @@ namespace OnionPronia.Persistence.Implementations.Services
 
 
             Category category = _mapper.Map<Category>(categoryDto);
-            category.CreatedAt=DateTime.Now;
 
             //Category category = new()
             //{
@@ -88,14 +87,12 @@ namespace OnionPronia.Persistence.Implementations.Services
 
             if (existed is null) throw new Exception("Category not found");
 
-
-
             existed = _mapper.Map(categoryDto, existed); //Var olani deyishdirir
 
             //existed = _mapper.Map<Category>(categoryDto); Yenisi yaradir
 
 
-            existed.UpdatedAt = DateTime.Now;
+          
 
             _repository.Update(existed);
             await _repository.SaveChangesAsync();
@@ -111,5 +108,16 @@ namespace OnionPronia.Persistence.Implementations.Services
             _repository.Delete(existed);
             await _repository.SaveChangesAsync();
         }
+        public async Task SoftDeleteAsync(int id)
+        {
+            Category? existed = await _repository.GetByIdAsync(id);
+
+            if (existed is null) throw new Exception("Category not found");
+
+            existed.IsDeleted = true;
+            _repository.Update(existed);
+            await _repository.SaveChangesAsync();
+        }
+
     }
 }

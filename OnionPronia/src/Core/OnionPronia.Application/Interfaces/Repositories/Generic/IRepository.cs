@@ -15,6 +15,7 @@ namespace OnionPronia.Application.Interfaces.Repositories
             Expression<Func<T, bool>>? func = null,
              Expression<Func<T, object>>? sort = null,
             bool isDesc = false,
+            bool isIgnore = false,
             int page = 0,
             int take = 0,
             params string[]? includes

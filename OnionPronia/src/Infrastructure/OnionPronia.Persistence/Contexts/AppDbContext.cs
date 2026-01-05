@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OnionPronia.Domain.Entities;
 using OnionPronia.Persistence.Configurations;
+using OnionPronia.Persistence.Contexts.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,43 @@ namespace OnionPronia.Persistence.Contexts
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
+            modelBuilder.ApplyAllQueryFilters();
+
+
             base.OnModelCreating(modelBuilder);
+        }
+
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            _setDateTime();
+            return base.SaveChangesAsync(cancellationToken);
+        }
+
+        private void _setDateTime()
+        {
+            var datas = ChangeTracker.Entries<BaseAccountableEntity>();
+
+            foreach (var entry in datas)
+            {
+
+                switch (entry.State)
+                {
+                    case EntityState.Modified:
+
+                        var isDeletedChanged = entry.OriginalValues.GetValue<bool>(nameof(Category.IsDeleted))
+                            != entry.CurrentValues.GetValue<bool>(nameof(Category.IsDeleted));
+
+                        if (!isDeletedChanged)
+                        {
+                            entry.Entity.UpdatedAt = DateTime.UtcNow;
+                        }
+                        break;
+                    case EntityState.Added:
+                        entry.Entity.CreatedAt = DateTime.UtcNow;
+                        break;
+                }
+
+            }
         }
 
         public DbSet<Category> Categories { get; set; }

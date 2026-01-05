@@ -16,6 +16,7 @@ namespace OnionPronia.Persistence.Configurations
         public void Configure(EntityTypeBuilder<Product> builder)
         {
 
+            //builder.HasQueryFilter(p=>p.IsDeleted);
             builder
                 .Property(p => p.Name)
                 .IsRequired()
