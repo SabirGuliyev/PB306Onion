@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sabir\\Desktop\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {}
+    "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sabir\\Desktop\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {
+    "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabir\\Desktop\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
         "projectName": "OnionPronia.Domain",
-        "projectPath": "C:\\Users\\sabir\\Desktop\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
+        "projectPath": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
         "packagesPath": "C:\\Users\\sabir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabir\\Desktop\\OnionPronia\\src\\Core\\OnionPronia.Domain\\obj\\",
+        "outputPath": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

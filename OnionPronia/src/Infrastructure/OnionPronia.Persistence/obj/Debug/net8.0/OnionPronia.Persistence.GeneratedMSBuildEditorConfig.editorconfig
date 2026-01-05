@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OnionPronia.Persistence
-build_property.ProjectDir = C:\Users\sabir\Desktop\OnionPronia\src\Infrastructure\OnionPronia.Persistence\
+build_property.ProjectDir = C:\Users\sabir\Desktop\PB306Onion\OnionPronia\src\Infrastructure\OnionPronia.Persistence\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

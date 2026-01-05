@@ -9,5 +9,6 @@ namespace OnionPronia.Application.Interfaces.Services
         Task CreateAsync(PostCategoryDto categoryDto);
         Task UpdateAsync(int id, PutCategoryDto categoryDto);
         Task DeleteAsync(int id);
+        Task SoftDeleteAsync(int id);
     }
 }

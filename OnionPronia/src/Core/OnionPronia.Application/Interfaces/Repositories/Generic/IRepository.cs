@@ -15,13 +15,14 @@ namespace OnionPronia.Application.Interfaces.Repositories
             Expression<Func<T, bool>>? func = null,
              Expression<Func<T, object>>? sort = null,
             bool isDesc = false,
+            bool isIgnore = false,
             int page = 0,
             int take = 0,
             params string[]? includes
 
 
             );
-        Task<T> GetByIdAsync(int id, params string[] includes);
+        Task<T> GetByIdAsync(long id, params string[] includes);
 
 
         void Add(T entity);
@@ -30,6 +31,8 @@ namespace OnionPronia.Application.Interfaces.Repositories
 
 
         void Delete(T entity);
+
+        Task<bool> AnyAsync(Expression<Func<T, bool>> func);
         Task SaveChangesAsync();
 
 

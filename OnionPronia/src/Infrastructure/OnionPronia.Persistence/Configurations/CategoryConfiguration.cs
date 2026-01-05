@@ -13,6 +13,7 @@ namespace OnionPronia.Persistence.Configurations
     {
         public void Configure(EntityTypeBuilder<Category> builder)
         {
+
             builder
                 .Property(c => c.Name)
                 .IsRequired()
