@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj": {}
+    "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj": {
+    "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj",
+        "projectUniqueName": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj",
         "projectName": "OnionPronia.Application",
-        "projectPath": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj",
-        "packagesPath": "C:\\Users\\sabir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\obj\\",
+        "projectPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj",
+        "packagesPath": "C:\\Users\\sabir.guliyev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sabir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sabir.guliyev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {
-                "projectPath": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj"
+              "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {
+                "projectPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj"
               }
             }
           }
@@ -48,7 +48,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -87,24 +88,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {
+    "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
         "projectName": "OnionPronia.Domain",
-        "projectPath": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
-        "packagesPath": "C:\\Users\\sabir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\obj\\",
+        "projectPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
+        "packagesPath": "C:\\Users\\sabir.guliyev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sabir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sabir.guliyev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -131,7 +132,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -152,24 +154,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj": {
+    "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj",
         "projectName": "OnionPronia.Persistence",
-        "projectPath": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj",
-        "packagesPath": "C:\\Users\\sabir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj",
+        "packagesPath": "C:\\Users\\sabir.guliyev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sabir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sabir.guliyev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -185,8 +187,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj": {
-                "projectPath": "C:\\Users\\sabir\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj"
+              "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj": {
+                "projectPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj"
               }
             }
           }
@@ -200,7 +202,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -237,7 +240,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

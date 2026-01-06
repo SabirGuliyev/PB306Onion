@@ -24,6 +24,15 @@ namespace OnionPronia.Application.MappingProfiles
                 opt => opt.MapFrom(p => p.ProductTags
                     .Select(pt => new GetTagInProductDto(pt.Tag.Id, pt.Tag.Name))
                     .ToList()));
+
+            CreateMap<PostProductDto, Product>()
+                .ForMember(
+                p => p.ProductTags,
+                opt => opt.MapFrom(pDto => pDto.TagIds
+                                                  .Select(tId => new ProductTag { TagId = tId })
+                                   )
+                );
+
           
         }
     }

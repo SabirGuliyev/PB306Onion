@@ -999,12 +999,18 @@
           "OnionPronia.Domain": "1.0.0"
         },
         "runtime": {
-          "OnionPronia.Application.dll": {}
+          "OnionPronia.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "OnionPronia.Domain/1.0.0": {
         "runtime": {
-          "OnionPronia.Domain.dll": {}
+          "OnionPronia.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "OnionPronia.Persistence/1.0.0": {
@@ -1014,7 +1020,10 @@
           "OnionPronia.Application": "1.0.0"
         },
         "runtime": {
-          "OnionPronia.Persistence.dll": {}
+          "OnionPronia.Persistence.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

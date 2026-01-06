@@ -31,6 +31,8 @@ namespace OnionPronia.Persistence.Configurations
                 .Property(p => p.Price)
                 .HasColumnType("decimal(8,2)");
 
+            
+
             builder
                 .Property(p => p.SKU)
                 .HasColumnType("char(10)");

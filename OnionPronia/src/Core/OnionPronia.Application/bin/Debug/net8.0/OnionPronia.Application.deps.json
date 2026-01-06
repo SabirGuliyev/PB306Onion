@@ -71,7 +71,10 @@
       "Microsoft.Extensions.Primitives/8.0.0": {},
       "OnionPronia.Domain/1.0.0": {
         "runtime": {
-          "OnionPronia.Domain.dll": {}
+          "OnionPronia.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
