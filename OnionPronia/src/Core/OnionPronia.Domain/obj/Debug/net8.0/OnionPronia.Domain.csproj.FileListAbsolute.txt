@@ -33,3 +33,4 @@ C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Core\OnionPronia.Domai
 C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Core\OnionPronia.Domain\obj\Debug\net8.0\refint\OnionPronia.Domain.dll
 C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Core\OnionPronia.Domain\obj\Debug\net8.0\OnionPronia.Domain.pdb
 C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Core\OnionPronia.Domain\obj\Debug\net8.0\ref\OnionPronia.Domain.dll
+C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Core\OnionPronia.Domain\obj\Debug\net8.0\OnionPronia.Domain.csproj.AssemblyReference.cache
