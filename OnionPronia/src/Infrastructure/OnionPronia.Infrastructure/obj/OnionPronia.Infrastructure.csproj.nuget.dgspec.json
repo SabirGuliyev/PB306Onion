@@ -4,14 +4,102 @@
     "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Infrastructure\\OnionPronia.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Infrastructure\\OnionPronia.Infrastructure.csproj": {
+    "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Infrastructure\\OnionPronia.Infrastructure.csproj",
-        "projectName": "OnionPronia.Infrastructure",
-        "projectPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Infrastructure\\OnionPronia.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj",
+        "projectName": "OnionPronia.Application",
+        "projectPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj",
         "packagesPath": "C:\\Users\\sabir.guliyev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sabir.guliyev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {
+                "projectPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
+        "projectName": "OnionPronia.Domain",
+        "projectPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
+        "packagesPath": "C:\\Users\\sabir.guliyev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +138,88 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Infrastructure\\OnionPronia.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Infrastructure\\OnionPronia.Infrastructure.csproj",
+        "projectName": "OnionPronia.Infrastructure",
+        "projectPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Infrastructure\\OnionPronia.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\sabir.guliyev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Infrastructure\\OnionPronia.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sabir.guliyev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj": {
+                "projectPath": "C:\\Users\\sabir.guliyev\\Desktop\\PB306Onion\\OnionPronia\\src\\Core\\OnionPronia.Application\\OnionPronia.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

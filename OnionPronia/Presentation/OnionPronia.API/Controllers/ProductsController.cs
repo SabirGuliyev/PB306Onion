@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OnionPronia.Application.DTOs.Products;
 using OnionPronia.Application.Interfaces.Services;
@@ -15,6 +16,7 @@ namespace OnionPronia.API.Controllers
         {
             _service = service;
         }
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAsync(int page=0,int take=0)
         {

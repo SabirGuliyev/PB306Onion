@@ -33,3 +33,9 @@ C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Infrastructure\OnionPr
 C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\refint\OnionPronia.Infrastructure.dll
 C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\OnionPronia.Infrastructure.pdb
 C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\ref\OnionPronia.Infrastructure.dll
+C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\bin\Debug\net8.0\OnionPronia.Application.dll
+C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\bin\Debug\net8.0\OnionPronia.Domain.dll
+C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\bin\Debug\net8.0\OnionPronia.Application.pdb
+C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\bin\Debug\net8.0\OnionPronia.Domain.pdb
+C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\OnionPronia.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\OnionPro.5C070D9E.Up2Date

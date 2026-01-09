@@ -349,3 +349,6 @@ C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\Presentation\OnionPronia.A
 C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\Presentation\OnionPronia.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\Presentation\OnionPronia.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\Presentation\OnionPronia.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\Presentation\OnionPronia.API\bin\Debug\net8.0\OnionPronia.Infrastructure.dll
+C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\Presentation\OnionPronia.API\bin\Debug\net8.0\OnionPronia.Infrastructure.pdb
+C:\Users\sabir.guliyev\Desktop\PB306Onion\OnionPronia\Presentation\OnionPronia.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
