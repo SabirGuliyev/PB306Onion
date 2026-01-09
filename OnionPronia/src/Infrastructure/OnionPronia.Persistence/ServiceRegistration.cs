@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.Configuration;
@@ -46,7 +47,23 @@ namespace OnionPronia.Persistence
             services.AddScoped<IAuthenticationService, AuthenticationService>();
 
 
+            services.AddScoped<AppDbContextInitializer>();
+
+
+
             return services;
+        }
+
+        public static async Task<IApplicationBuilder> UseAppDbContextInitializer(this IApplicationBuilder app,IServiceScope scope)
+        {
+            
+                var initializer = scope.ServiceProvider.GetRequiredService<AppDbContextInitializer>();
+
+                await initializer.InitializeDbContext();
+                await initializer.InitializeRolesAsync();
+                await initializer.InitializeAdmin();
+
+            return app;
         }
     }
 }

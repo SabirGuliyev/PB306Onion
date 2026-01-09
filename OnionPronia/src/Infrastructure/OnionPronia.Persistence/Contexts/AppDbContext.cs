@@ -18,6 +18,8 @@ namespace OnionPronia.Persistence.Contexts
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //modelBuilder.Entity<Product>().HasData(new Product(), new Product());
+
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
             modelBuilder.ApplyAllQueryFilters();

@@ -10,6 +10,6 @@ namespace OnionPronia.Application.Interfaces.Services
 {
     public interface ITokenService
     {
-        TokenResponseDto CreateAccessToken(AppUser user, int minutes);
+        TokenResponseDto CreateAccessToken(AppUser user, IEnumerable<string> roles, int minutes);
     }
 }

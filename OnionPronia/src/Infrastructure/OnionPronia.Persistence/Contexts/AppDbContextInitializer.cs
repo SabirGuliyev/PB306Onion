@@ -16,16 +16,37 @@ namespace OnionPronia.Persistence.Contexts
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly UserManager<AppUser> _userManager;
         private readonly IConfiguration _configuration;
+        private readonly AppDbContext _context;
 
         public AppDbContextInitializer(
             RoleManager<IdentityRole> roleManager,
             UserManager<AppUser> userManager,
-            IConfiguration configuration
+            IConfiguration configuration,
+            AppDbContext context
             )
         {
             _roleManager = roleManager;
             _userManager = userManager;
             _configuration = configuration;
+            _context = context;
+        }
+        //public async Task InitializeDatas()
+        //{
+        //    if( !await _context.Categories.AnyAsync(c=>c.Name=="Default"))
+        //    {
+        //        _context.Categories.Add(new Category { Name = "Default" });
+        //        await _context.SaveChangesAsync();
+        //    }
+            
+        
+        //}
+        public async Task InitializeDbContext()
+        {
+           if (!await _context.Database.EnsureCreatedAsync())
+            {
+                await _context.Database.MigrateAsync();
+            }
+         
         }
         public async Task InitializeAdmin()
         {

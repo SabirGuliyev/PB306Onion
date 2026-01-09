@@ -14,6 +14,7 @@ using OnionPronia.Application.DTOs.AppUsers;
 using OnionPronia.Application.DTOs.Tokens;
 using OnionPronia.Application.Interfaces.Services;
 using OnionPronia.Domain.Entities;
+using OnionPronia.Domain.Enums;
 
 namespace OnionPronia.Persistence.Implementations.Services
 {
@@ -37,7 +38,8 @@ namespace OnionPronia.Persistence.Implementations.Services
         }
         public async Task RegisterAsync(RegisterDto userDto)
         {
-           IdentityResult result= await _userManager.CreateAsync(_mapper.Map<AppUser>(userDto), userDto.Password);
+            AppUser user= _mapper.Map<AppUser>(userDto);
+           IdentityResult result= await _userManager.CreateAsync(user, userDto.Password);
 
             if (!result.Succeeded)
             {
@@ -48,6 +50,8 @@ namespace OnionPronia.Persistence.Implementations.Services
                 }
                 throw new Exception(sb.ToString());
             }
+
+            await _userManager.AddToRoleAsync(user,UserRole.Member.ToString());
 
         }
 
@@ -70,7 +74,8 @@ namespace OnionPronia.Persistence.Implementations.Services
 
             }
 
-            return _tokenService.CreateAccessToken(user, 15);
+            var roles=await _userManager.GetRolesAsync(user);
+            return _tokenService.CreateAccessToken(user,roles, 15);
 
         }
     }

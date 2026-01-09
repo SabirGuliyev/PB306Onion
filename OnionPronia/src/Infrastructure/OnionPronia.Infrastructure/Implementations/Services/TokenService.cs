@@ -1,6 +1,7 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using OnionPronia.Application.DTOs.Tokens;
@@ -17,28 +18,35 @@ namespace OnionPronia.Infrastructure.Implementations.Services
         {
             _configuration = configuration;
         }
-        public TokenResponseDto CreateAccessToken(AppUser user,int minutes)
+        public TokenResponseDto CreateAccessToken(AppUser user,IEnumerable<string> roles,int minutes)
         {
-
-            JwtSecurityToken securityToken = new JwtSecurityToken(
-                issuer: _configuration["JWT:issuer"],
-                audience: _configuration["JWT:audience"],
-                expires: DateTime.UtcNow.AddMinutes(minutes),
-                notBefore: DateTime.UtcNow,
-                claims: new List<Claim> {
+            ICollection<Claim> claims = new List<Claim> {
 
                 new Claim(ClaimTypes.NameIdentifier,user.Id),
                 new Claim(ClaimTypes.Name,user.UserName),
                 new Claim(ClaimTypes.Email,user.Email),
                 new Claim(ClaimTypes.Surname,user.Surname),
                 new Claim(ClaimTypes.GivenName,user.Name)
-                },
+                };
+
+            foreach(string role in roles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, role));
+            }
+
+            JwtSecurityToken securityToken = new JwtSecurityToken(
+                issuer: _configuration["JWT:issuer"],
+                audience: _configuration["JWT:audience"],
+                expires: DateTime.UtcNow.AddMinutes(minutes),
+                notBefore: DateTime.UtcNow,
+                claims:claims,
                 signingCredentials: new SigningCredentials(
                     new SymmetricSecurityKey(
                         Encoding.ASCII.GetBytes(_configuration["JWT:secretKey"])), 
                     SecurityAlgorithms.HmacSha256
                     )
                 );
+           
 
             return new TokenResponseDto(
                 new JwtSecurityTokenHandler().WriteToken(securityToken), 
